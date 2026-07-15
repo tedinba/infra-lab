@@ -5,4 +5,5 @@ Mi primer servidor Ubuntu
 - Aprender Linux
 - Aprender Git
 - Aprender Azure
+Hoy he aprendido a hacer mi primer commit en Git.
 
