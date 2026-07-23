@@ -1,10 +1,25 @@
 </> Markdown
-# Linux Lab
-Mi primer servidor Ubuntu
-## Objetivos
-- Aprender Linux
-- Aprender Git
-- Aprender Azure
-- Aprender Docker
-Hoy he aprendido a hacer mi primer commit en Git.
+# Infra Lab
+
+##Descripción
+Proyecto personal para aprender.
+
+## Tecnologías
+- Linux
+- Git
+- Azure
+- Docker
+- Terraform
+
+## Estructura
+- docs/
+- scripts/
+- proyectos/
+- notas/
+
+## Objetivo
+Construir un laboratorio de infraestructura similar al que utilizaría un Cloud Engineer.
+
+## Cómo clonar el proyecto
+
 
