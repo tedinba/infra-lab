@@ -2,7 +2,7 @@
 # Infra Lab
 
 ##Descripción
-Proyecto personal para aprender.
+Proyecto personal para aprender diferentes tecnologías de forma autodidacta.
 
 ## Tecnologías
 - Linux
@@ -12,7 +12,6 @@ Proyecto personal para aprender.
 - Terraform
 
 ## Estructura
-- docs/
 - scripts/
 - proyectos/
 - notas/
@@ -20,6 +19,13 @@ Proyecto personal para aprender.
 ## Objetivo
 Construir un laboratorio de infraestructura similar al que utilizaría un Cloud Engineer.
 
-## Cómo clonar el proyecto
-
+## Cómo empezar
+Clona el repositorio en tu ordenador:
+```bash
+git clone git@github.com:tedinba/ingra-lab.git
+```
+Después entra en la carpeta del proyecto:
+```bash
+cd infra-lab
+```
 
