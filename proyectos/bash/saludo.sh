@@ -1,5 +1,7 @@
 #!/bin/bash
 
-echo "Hola desde Bash"
-echo "Mi primer script funciona"
+echo "¿Cómo te llamas?"
+read nombre
+echo "Hola, $nombre"
+echo "Bienvenid@ al laboratorio"
 
