@@ -1,4 +1,8 @@
 #!/bin/bash
 
-echo "Realizando copia de seguridad..."
+echo "Hoy es $(date) ."
+echo "El usuario actual es: $USER."
+echo "Estás en: $PWD."
+echo "Backup finalizado correctamente."
+
 
