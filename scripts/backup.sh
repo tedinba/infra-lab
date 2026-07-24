@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Hoy es $(date) ."
-echo "El usuario actual es: $USER."
-echo "Estás en: $PWD."
-echo "Backup finalizado correctamente."
+echo "Fecha y hora: $(date)"
+echo "Usuario actual: $(whoami)"
+echo "Directorio actual: $PWD"
+echo "Backup finalizado correctamente"
 
 
