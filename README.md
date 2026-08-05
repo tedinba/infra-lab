@@ -43,7 +43,7 @@ cd infra-lab
 Display the project structure: 
 ```bash
 tree
-```
+```text
 tedinba@ubuntu-lab-01:~/laboratorio$ tree
 .
 ├── disk_report.sh
