@@ -1,31 +1,71 @@
 </> Markdown
 # Infra Lab
 
-##Descripción
-Proyecto personal para aprender diferentes tecnologías de forma autodidacta.
+A personal infrastructure laboratory focused on learning and practicing:
 
-## Tecnologías
 - Linux
+- Bash
 - Git
+- Python
 - Azure
 - Docker
 - Terraform
 
-## Estructura
-- scripts/
-- proyectos/
-- notas/
+## Current modules
 
-## Objetivo
-Construir un laboratorio de infraestructura similar al que utilizaría un Cloud Engineer.
+- Git workflow
+- Bash scripting
+- Linux fundamentals
 
-## Cómo empezar
-Clona el repositorio en tu ordenador:
-```bash
-git clone git@github.com:tedinba/ingra-lab.git
+## In progress
+
+- Python
+
+## Planned
+
+- Docker
+- Terraform
+- Azure
+
+## Respository Structure
+
 ```
-Después entra en la carpeta del proyecto:
+
+## Getting Started 
+Clone this repository to your local machine:
+```bash
+git clone git@github.com:tedinba/infra-lab.git
+```
+Navigate to the project directory:
 ```bash
 cd infra-lab
 ```
+Display the project structure: 
+```bash
+tree
+```
+tedinba@ubuntu-lab-01:~/laboratorio$ tree
+.
+├── disk_report.sh
+├── notas
+├── proyectos
+│   ├── bash
+│   │   └── saludo.sh
+│   ├── python
+│   │   └── calculadora
+│   │       ├── README.md
+│   │       └── src
+│   │           └── main.py
+│   └── terraform
+├── README.md
+└── scripts
+    ├── backup.sh
+    └── system_info.sh
+
+
+## Author
+Created and maintained by Tedinba.
+
+- GitHub: https://github.com/tedinba
+- Linkedin:a https://www.linkedin.com/in/andrea-tedin
 
