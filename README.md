@@ -61,7 +61,7 @@ tedinba@ubuntu-lab-01:~/laboratorio$ tree
 └── scripts
     ├── backup.sh
     └── system_info.sh
-
+```
 
 ## Author
 Created and maintained by Tedinba.
