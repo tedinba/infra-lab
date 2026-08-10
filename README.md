@@ -50,10 +50,15 @@ tedinba@ubuntu-lab-01:~/laboratorio$ tree
 ├── bash
 │     └── greet_user.sh
 ├── python
-│     └── calculator                 
-│          ├── README.md
-│          └── src
-│              └── main.py
+│     └── calculator
+│          ├── README.md
+│          ├── src
+│          │    └── calculator
+│          │         ├── operations.py
+│          │         ├── cli.py
+│          │         └── _init_.py
+│          └── tests
+│               └── test_operations.py
 ├── terraform
 ├── docker
 ├── README.md
