@@ -46,20 +46,20 @@ tree
 ```text
 tedinba@ubuntu-lab-01:~/laboratorio$ tree
 .
-├── disk_report.sh
-├── notas
-├── proyectos
-│   ├── bash
-│   │   └── saludo.sh
-│   ├── python
-│   │   └── calculadora
-│   │       ├── README.md
-│   │       └── src
-│   │           └── main.py
-│   └── terraform
+├── docs
+├── bash
+│     └── greet_user.sh
+├── python
+│     └── calculator                 
+│          ├── README.md
+│          └── src
+│              └── main.py
+├── terraform
+├── docker
 ├── README.md
 └── scripts
     ├── backup.sh
+    ├── disk_report.sh
     └── system_info.sh
 ```
 
