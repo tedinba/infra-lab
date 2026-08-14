@@ -1,3 +1,10 @@
+from calculator.operations import add, subtract, multiply, divide
+
+def get_numbers():
+    first = float(input("First number: "))
+    second = float(input("Second number: "))
+    return first, second 
+
 def main():
    while True:
         print("Calculator")
@@ -10,13 +17,34 @@ def main():
         choice = input("Choose an operation: ")
 
         if choice == "1":
-            print("Add selected")
+            try:
+                first, second = get_numbers()
+                result = add(first, second)
+                print(f"Result: {result}")
+            except ValueError:
+                print("Error: Please enter valid numbers.")
         elif choice == "2":
-            print("Subtract selected")
+            try:
+                first, second = get_numbers()
+                result = subtract(first, second)
+                print(f"Result: {result}")
+            except ValueError:
+                print("Error: Please enter valid numbers.")
+
         elif choice == "3":
-            print("Multiply selected")
+            try:
+                first, second = get_numbers()
+                result = multiply(first, second)
+                print(f"Result: {result}")
+            except ValueError:
+                print("Error: Please enter valid numbers.")
         elif choice == "4":
-            print("Divide selected")
+            try:
+                first, second = get_numbers()
+                result = divide(first, second)
+                print(f"Result: {result}")
+            except ValueError as error:
+                print(f"Error: {error}")
         elif choice == "5":
             print("Goodbye!")
             break
